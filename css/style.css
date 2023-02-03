@@ -71,10 +71,21 @@
     transition: 1s;
 }
 
+.redes{
+    padding: .6rem 2rem;
+    display: flex;
+    gap: .6rem;
+}
 
+i{
+    color: rgb(240, 255, 255);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
 
-/* MEDIA CELULAR */
-
-@media (max-width)
+i:hover{
+    color: rgb(0, 100, 207);
+    transition: 1s;
+}
 
 
