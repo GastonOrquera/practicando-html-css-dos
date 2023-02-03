@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.fondo{
+    width: 100%;
+    opacity: 60%;
+}
+
+.opacity{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.t-p{
+    padding: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;  
+}
+
+.logo{
+    width: 12rem;
+    padding: 1.2rem 2rem;
+}
+
+.titulo{
+    color: rgb(255, 255, 255);
+    padding: .5rem 2rem;
+    font-size: 3.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.soon{
+    color: rgb(0, 100, 207);
+    font-weight: 600;
+}
+
+.parrafo{
+    padding: .6rem 2rem;
+    font-family: sans-serif;
+    color: rgb(240, 240, 240);
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+
+.botones{
+    padding: 1rem 2rem;
+    display: flex;
+    gap: .5rem;
+}
+
+.botones .botons{
+    background-color: rgb(0, 105, 216);
+    padding: .5rem 1.5rem;
+    color: rgb(240, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.botones .botons:hover{
+    background-color: rgb(240, 255, 255);
+    color: rgb(0, 105, 216);
+    transition: 1s;
+}
+
+
+
+/* MEDIA CELULAR */
+
+@media (max-width)
+
+
